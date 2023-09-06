@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:store_hook/constants.dart';
 
 ThemeData lightTheme = ThemeData(
+  useMaterial3: true,
   appBarTheme: const AppBarTheme(
     systemOverlayStyle: SystemUiOverlayStyle(
       statusBarColor: Colors.white,
@@ -11,9 +13,9 @@ ThemeData lightTheme = ThemeData(
     elevation: 0.0,
   ),
   scaffoldBackgroundColor: Colors.white,
-  colorScheme: ColorScheme.fromSeed(
-    seedColor: Colors.deepOrange,
-    surface: Colors.orange,
+  fontFamily: 'Muli',
+  textTheme: const TextTheme(
+    bodyLarge: TextStyle(color: kTextColor),
+    bodyMedium: TextStyle(color: kTextColor),
   ),
-  useMaterial3: true,
 );

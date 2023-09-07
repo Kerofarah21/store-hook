@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:store_hook/Features/onBoarding/presentation/views/on_boarding_view.dart';
-import 'package:store_hook/core/utils/themes.dart';
+
+import 'core/utils/app_router.dart';
+import 'core/utils/themes.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,11 +12,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp.router(
+      routerConfig: AppRouter.router,
       title: 'StoreHook',
       debugShowCheckedModeBanner: false,
       theme: lightTheme,
-      home: const OnBoardingView(),
     );
   }
 }

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:store_hook/constants.dart';
+
+import '../../constants.dart';
 
 ThemeData lightTheme = ThemeData(
   useMaterial3: true,

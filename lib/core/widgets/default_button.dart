@@ -4,8 +4,12 @@ import '../../constants.dart';
 import '../../size_config.dart';
 
 class DefaultButton extends StatelessWidget {
+  final String text;
+  final void Function()? onPressed;
   const DefaultButton({
     super.key,
+    required this.text,
+    required this.onPressed,
   });
 
   @override
@@ -14,7 +18,7 @@ class DefaultButton extends StatelessWidget {
       width: double.infinity,
       height: getProportionateScreenHeight(56),
       child: MaterialButton(
-        onPressed: () {},
+        onPressed: onPressed,
         color: kPrimaryColor,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(
@@ -22,7 +26,7 @@ class DefaultButton extends StatelessWidget {
           ),
         ),
         child: Text(
-          'Continue',
+          text,
           style: TextStyle(
             fontSize: getProportionateScreenWidth(18),
             color: Colors.white,

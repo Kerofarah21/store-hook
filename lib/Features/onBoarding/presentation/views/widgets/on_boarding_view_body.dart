@@ -64,7 +64,10 @@ class _OnBoardingViewBodyState extends State<OnBoardingViewBody> {
                   const Spacer(
                     flex: 3,
                   ),
-                  const DefaultButton(),
+                  DefaultButton(
+                    text: 'Continue',
+                    onPressed: () {},
+                  ),
                   const Spacer(),
                 ],
               ),

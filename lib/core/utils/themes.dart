@@ -13,13 +13,16 @@ ThemeData lightTheme = ThemeData(
     iconTheme: IconThemeData(
       color: Colors.black,
     ),
+    titleTextStyle: TextStyle(
+      color: kTextColor2,
+      fontSize: 18,
+    ),
     color: Colors.white,
     elevation: 0.0,
   ),
   scaffoldBackgroundColor: Colors.white,
   fontFamily: 'Muli',
   textTheme: const TextTheme(
-    titleLarge: TextStyle(color: kTextColor2, fontSize: 18),
     bodyLarge: TextStyle(color: kTextColor1),
     bodyMedium: TextStyle(color: kTextColor1),
   ),

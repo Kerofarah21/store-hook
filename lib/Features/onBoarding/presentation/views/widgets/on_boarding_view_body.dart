@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
+import 'package:store_hook/core/utils/app_router.dart';
 import 'package:store_hook/size_config.dart';
 
 import '../../../../../core/widgets/default_button.dart';
@@ -6,14 +8,9 @@ import '../../../data/models/on_boarding.dart';
 import './on_boarding_content.dart';
 import './on_boarding_indicator.dart';
 
-class OnBoardingViewBody extends StatefulWidget {
+class OnBoardingViewBody extends StatelessWidget {
   const OnBoardingViewBody({super.key});
 
-  @override
-  State<OnBoardingViewBody> createState() => _OnBoardingViewBodyState();
-}
-
-class _OnBoardingViewBodyState extends State<OnBoardingViewBody> {
   @override
   Widget build(BuildContext context) {
     List<OnBoarding> onBoardingData = [
@@ -66,7 +63,9 @@ class _OnBoardingViewBodyState extends State<OnBoardingViewBody> {
                   ),
                   DefaultButton(
                     text: 'Continue',
-                    onPressed: () {},
+                    onPressed: () {
+                      GoRouter.of(context).push(AppRouter.kSignIn);
+                    },
                   ),
                   const Spacer(),
                 ],

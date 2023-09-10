@@ -1,24 +1,31 @@
 import 'package:flutter/material.dart';
 
-import '../../../../../size_config.dart';
+import '../../../size_config.dart';
 
-class Welcome extends StatelessWidget {
-  const Welcome({super.key});
+class TextBlock extends StatelessWidget {
+  final String firstText;
+  final String secondText;
+
+  const TextBlock({
+    super.key,
+    required this.firstText,
+    required this.secondText,
+  });
 
   @override
   Widget build(BuildContext context) {
     return Column(
       children: [
         Text(
-          'Welcome Back',
+          firstText,
           style: TextStyle(
             color: Colors.black,
             fontSize: getProportionateScreenWidth(28),
             fontWeight: FontWeight.bold,
           ),
         ),
-        const Text(
-          'Sign in with your email and password\nor continue with social media',
+        Text(
+          secondText,
           textAlign: TextAlign.center,
         ),
       ],

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../../constants.dart';
-import './default_text_form_field.dart';
+import '../../../constants.dart';
+import 'default_text_form_field.dart';
 
 class PasswordFormFieldBuilder extends StatelessWidget {
   final GlobalKey<FormState> formKey;

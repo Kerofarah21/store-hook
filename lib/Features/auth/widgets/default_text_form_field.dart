@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:store_hook/constants.dart';
 
-import '../../size_config.dart';
-import '../functions/custom_input_border.dart';
+import '../../../size_config.dart';
+import '../../../core/functions/custom_input_border.dart';
 
 class DefaultTextFormField extends StatelessWidget {
   final String label;

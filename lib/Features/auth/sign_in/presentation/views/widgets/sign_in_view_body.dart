@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-import '../../../../../size_config.dart';
+import '../../../../../../size_config.dart';
 import './sign_in_form.dart';
 import './socials.dart';
-import '../../../../../core/widgets/sign_up_now.dart';
-import './welcome.dart';
+import '../../../../widgets/sign_up_now.dart';
+import '../../../../widgets/text_block.dart';
 
 class SignInViewBody extends StatelessWidget {
   const SignInViewBody({super.key});
@@ -23,7 +23,11 @@ class SignInViewBody extends StatelessWidget {
               SizedBox(
                 height: SizeConfig.screenHeight! * 0.04,
               ),
-              const Welcome(),
+              const TextBlock(
+                firstText: 'Welcome Back',
+                secondText:
+                    'Sign in with your email and password\nor continue with social media',
+              ),
               SizedBox(
                 height: SizeConfig.screenHeight! * 0.08,
               ),

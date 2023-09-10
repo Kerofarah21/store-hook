@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import './widgets/forgot_password_view_body.dart';
+
 class ForgortPasswordView extends StatelessWidget {
   const ForgortPasswordView({super.key});
 
@@ -11,6 +13,7 @@ class ForgortPasswordView extends StatelessWidget {
           'Forgot Password',
         ),
       ),
+      body: const ForgotPasswordViewBody(),
     );
   }
 }

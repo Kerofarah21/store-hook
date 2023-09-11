@@ -73,6 +73,7 @@ class _SignInFormState extends State<SignInForm> {
             onPressed: () {
               if (_formKey.currentState!.validate()) {
                 _formKey.currentState!.save();
+                GoRouter.of(context).go(AppRouter.kSignInSuccess);
               }
             },
           ),

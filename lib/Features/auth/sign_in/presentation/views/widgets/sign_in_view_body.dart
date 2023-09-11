@@ -11,7 +11,8 @@ class SignInViewBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
+    return SizedBox(
+      width: double.infinity,
       child: Padding(
         padding: EdgeInsets.symmetric(
           horizontal: getProportionateScreenWidth(20),

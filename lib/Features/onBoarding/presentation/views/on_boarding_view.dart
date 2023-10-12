@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
-import '../../../../constants.dart';
+import '../../../../core/constants/constants.dart';
 import '../../../../core/utils/app_router.dart';
-import '../../../../size_config.dart';
+import '../../../../core/utils/size_config.dart';
 import './widgets/on_boarding_view_body.dart';
 
 class OnBoardingView extends StatelessWidget {

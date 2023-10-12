@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:store_hook/constants.dart';
+import 'package:store_hook/core/constants/constants.dart';
 
-import '../../../size_config.dart';
+import '../../../core/utils/size_config.dart';
 import '../../../core/functions/custom_input_border.dart';
 
 class DefaultTextFormField extends StatelessWidget {

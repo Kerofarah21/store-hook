@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../size_config.dart';
+import '../../../core/utils/size_config.dart';
 
 class TextBlock extends StatelessWidget {
   final String firstText;

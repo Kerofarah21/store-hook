@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:store_hook/core/utils/app_router.dart';
-import 'package:store_hook/size_config.dart';
+import 'package:store_hook/core/utils/size_config.dart';
 
 import '../../../../../core/widgets/default_button.dart';
 import '../../../data/models/on_boarding.dart';

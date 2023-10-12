@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
-import '../../../../../constants.dart';
+import '../../../../../core/constants/constants.dart';
 
 class OnBoardingIndicator extends StatelessWidget {
   final PageController boardController;

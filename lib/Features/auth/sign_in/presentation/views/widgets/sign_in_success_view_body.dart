@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../../../../core/widgets/default_button.dart';
-import '../../../../../../size_config.dart';
+import '../../../../../../core/utils/size_config.dart';
 
 class SignInSuccessViewBody extends StatelessWidget {
   const SignInSuccessViewBody({super.key});

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../constants.dart';
+import '../../../core/constants/constants.dart';
 import 'default_text_form_field.dart';
 
 class EmailFormFieldBuilder extends StatelessWidget {

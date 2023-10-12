@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../../../../size_config.dart';
+import '../../../../../../core/utils/size_config.dart';
 import '../../../../widgets/sign_up_now.dart';
 import '../../../../widgets/text_block.dart';
 import '../widgets/forgot_password_form.dart';

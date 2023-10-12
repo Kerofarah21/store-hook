@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../../../constants.dart';
-import '../../../size_config.dart';
+import '../../../core/constants/constants.dart';
+import '../../../core/utils/size_config.dart';
 
 class SignUpNow extends StatelessWidget {
   const SignUpNow({

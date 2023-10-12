@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../../../../core/widgets/default_button.dart';
-import '../../../../../../size_config.dart';
+import '../../../../../../core/utils/size_config.dart';
 import '../../../../widgets/email_form_field_builder.dart';
 
 class ForgotPasswordForm extends StatelessWidget {
